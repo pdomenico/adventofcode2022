@@ -97,14 +97,6 @@ pub fn part2() {
                 }
             }
 
-            if i == 2 && j == 4 {
-                println!("Tree height: {}", grid[i][j]);
-                println!("left: {}", left);
-                println!("right: {}", right);
-                println!("up: {}", up);
-                println!("down: {}", down);
-            }
-
             let score = left * right * up * down;
             if score > highest_score {
                 highest_score = score;
