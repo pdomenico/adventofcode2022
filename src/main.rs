@@ -1,5 +1,5 @@
-use advent_of_code::day10;
+use advent_of_code::day11;
 
 fn main() {
-    day10::part1();
+    day11::part1();
 }
